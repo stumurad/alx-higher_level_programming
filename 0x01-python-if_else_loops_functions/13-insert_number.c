@@ -1,12 +1,15 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 #include "lists.h"
 /**
  * insert_node - yeb main
  * @head: ptr
  * @number: int
- * Return: new
+ * Return: new, NULL
  */
 
-void listint_t *insert_node(listint_t **head, int number)
+listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *node = *head, *new;
 
