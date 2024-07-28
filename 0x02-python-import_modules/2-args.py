@@ -7,7 +7,7 @@ if len(argv) == 1:
 elif len(argv) >= 2:
     print("{} arguments:".format(len(argv)))
 else:
-    print("{} argument.".format(len(argv)))
+    print("{} arguments.".format(len(argv)))
 
 for i, arg in enumerate(argv, start=1):
     print("{}: {}".format(i, arg))
