@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-def add(a, b):
+
 a = 1
 b = 2
+def add(a, b):
 
-print("1 + 2 =", a + b)
     return (a + b)
 
+print("a + b =", add(a, b))
