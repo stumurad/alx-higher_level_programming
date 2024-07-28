@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys
-import hidden_4.pyc
 if __name__ == "__main__":
 
     name = dir(hidden_4.pyc)
