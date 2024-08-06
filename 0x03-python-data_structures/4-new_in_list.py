@@ -5,6 +5,6 @@ def new_in_list(my_list, idx, element):
     elif idx > (len(my_list) - 1):
         return my_list
     else:
-        mod_list[i for i in my_list]
-        my_list[idx] = element
+        mod_list = [i for i in my_list]
+        mod_list[idx] = element
         return mod_list
