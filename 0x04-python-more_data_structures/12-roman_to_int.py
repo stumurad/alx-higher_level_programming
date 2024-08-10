@@ -6,7 +6,7 @@ def roman_to_int(roman_string):
              'C': 100, 'D': 500, 'M': 1000}
     num = 0
     for i in range(len(roman_string)):
-        if i > 0 and trans[roman_string[i]] > translate[roman_string[i - 1]]:
+        if i > 0 and trans[roman_string[i]] > trans[roman_string[i - 1]]:
             num += trans[roman_string[i]]
             - 2 * trans[roman_string[i - 1]]
         else:
